@@ -33,7 +33,7 @@
             libxml_use_internal_errors(true);
             $this->dom = $this->dom->loadHTML($html);
             libxml_clear_errors();
-            print_r($this->dom->documentElement;
+            print_r($this->dom->documentElement);
         }
 
         public function load_schools(){
